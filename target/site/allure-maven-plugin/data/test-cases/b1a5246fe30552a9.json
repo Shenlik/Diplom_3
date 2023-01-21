@@ -1,0 +1,56 @@
+{
+  "uid" : "b1a5246fe30552a9",
+  "name" : "checkExitButton",
+  "fullName" : "ru.yandex.practicum.logOutOfAccount.ChromeLogOutOfAccountTest.checkExitButton",
+  "historyId" : "ce7a4f0057137b97b15692d15c474a29",
+  "time" : {
+    "start" : 1674298005331,
+    "stop" : 1674298012777,
+    "duration" : 7446
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "ru.yandex.practicum.logOutOfAccount"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.yandex.practicum.logOutOfAccount.ChromeLogOutOfAccountTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkExitButton"
+  }, {
+    "name" : "suite",
+    "value" : "ru.yandex.practicum.logOutOfAccount.ChromeLogOutOfAccountTest"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Air-user.local"
+  }, {
+    "name" : "thread",
+    "value" : "986@MacBook-Air-user.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b1a5246fe30552a9.json",
+  "parameterValues" : [ ]
+}

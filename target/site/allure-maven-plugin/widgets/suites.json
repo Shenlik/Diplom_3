@@ -1,0 +1,114 @@
+{
+  "total" : 13,
+  "items" : [ {
+    "uid" : "11283e81a07ffeb01e6ed75f91ac0498",
+    "name" : "ru.yandex.practicum.input.ChromeInputTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "7e8c586dcaba7b09e94bff872a03cafa",
+    "name" : "ru.yandex.practicum.input.YandexInputTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "fe5a9a645b9ef4da23de991c37ae2219",
+    "name" : "ru.yandex.practicum.registration.ChromeRegistrationTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "9570d9a3a0996f78b4ac36c7e4e49b6e",
+    "name" : "ru.yandex.practicum.registration.YandexRegistrationTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "c8484413a3d922c3c6b241eccfc227d1",
+    "name" : "ru.yandex.practicum.fromPersonalCabinetInConstructor.YandexFromPersonalCabinetInConstructorTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "5215f8357c69b4c2f2a1e35d700da3bb",
+    "name" : "ru.yandex.practicum.fromPersonalCabinetInConstructor.ChromeFromPersonalCabinetInConstructorTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "b8da7174f278d4d363f71824c7117f77",
+    "name" : "ru.yandex.practicum.AppTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "8cd76e8d535974d092daa0f7a196ec55",
+    "name" : "ru.yandex.practicum.openPersinalCabinet.ChromeOpenPersonalCabinetTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "fc0fba97ee25946a78c17ef2f99f6461",
+    "name" : "ru.yandex.practicum.openPersinalCabinet.YandexOpenPersonalCabinetTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "371c9d9a96861199e08c2175a80529a3",
+    "name" : "ru.yandex.practicum.logOutOfAccount.YandexLogOutOfAccountTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}

@@ -1,0 +1,64 @@
+{
+  "uid" : "7d8ae31d2803f65",
+  "name" : "checkErrorByWrongPassword",
+  "fullName" : "ru.yandex.practicum.registration.ChromeRegistrationTest.checkErrorByWrongPassword",
+  "historyId" : "6c9bd3669b864925fcd6508cec0d967a",
+  "time" : {
+    "start" : 1674297842322,
+    "stop" : 1674297853830,
+    "duration" : 11508
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "ru.yandex.practicum.registration"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.yandex.practicum.registration.ChromeRegistrationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkErrorByWrongPassword"
+  }, {
+    "name" : "suite",
+    "value" : "ru.yandex.practicum.registration.ChromeRegistrationTest"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Air-user.local"
+  }, {
+    "name" : "thread",
+    "value" : "986@MacBook-Air-user.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "d4e22ec591315b82",
+      "status" : "passed",
+      "time" : {
+        "start" : 1674297202012,
+        "stop" : 1674297210793,
+        "duration" : 8781
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7d8ae31d2803f65.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,56 @@
+{
+  "uid" : "e213f8bf0bd0ab04",
+  "name" : "checkInputByRecoverPassword",
+  "fullName" : "ru.yandex.practicum.input.YandexInputTest.checkInputByRecoverPassword",
+  "historyId" : "2f9c1ae45936e0d156d8dca6c50bc5f5",
+  "time" : {
+    "start" : 1674297957727,
+    "stop" : 1674297965075,
+    "duration" : 7348
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "ru.yandex.practicum.input"
+  }, {
+    "name" : "testClass",
+    "value" : "ru.yandex.practicum.input.YandexInputTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkInputByRecoverPassword"
+  }, {
+    "name" : "suite",
+    "value" : "ru.yandex.practicum.input.YandexInputTest"
+  }, {
+    "name" : "host",
+    "value" : "MacBook-Air-user.local"
+  }, {
+    "name" : "thread",
+    "value" : "986@MacBook-Air-user.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e213f8bf0bd0ab04.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,231 @@
+[ {
+  "uid" : "7487adf9dde1ad80",
+  "name" : "checkSuccessOpenPersonalAccount",
+  "time" : {
+    "start" : 1674297887584,
+    "stop" : 1674297891512,
+    "duration" : 3928
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "58a246a5db92318a",
+  "name" : "checkSuccessfulRegistration",
+  "time" : {
+    "start" : 1674297820340,
+    "stop" : 1674297837137,
+    "duration" : 16797
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a193b475429f4291",
+  "name" : "checkInputByPersonalAccountButton",
+  "time" : {
+    "start" : 1674297896524,
+    "stop" : 1674297901825,
+    "duration" : 5301
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ddf93e6d542b8f6c",
+  "name" : "checkInputByPersonalAccountButton",
+  "time" : {
+    "start" : 1674297944822,
+    "stop" : 1674297952718,
+    "duration" : 7896
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e213f8bf0bd0ab04",
+  "name" : "checkInputByRecoverPassword",
+  "time" : {
+    "start" : 1674297957727,
+    "stop" : 1674297965075,
+    "duration" : 7348
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a71bf6b5e14909a4",
+  "name" : "checkInputByLoginAccountButton",
+  "time" : {
+    "start" : 1674297929742,
+    "stop" : 1674297939806,
+    "duration" : 10064
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c65042956c58b16e",
+  "name" : "checkSuccessfulRegistration",
+  "time" : {
+    "start" : 1674297858849,
+    "stop" : 1674297866728,
+    "duration" : 7879
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "949f22a93570afe3",
+  "name" : "checkClickOnConstructor",
+  "time" : {
+    "start" : 1674298035004,
+    "stop" : 1674298040925,
+    "duration" : 5921
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5eb08206c70c199e",
+  "name" : "checkSuccessfulOpenSectionBun",
+  "time" : {
+    "start" : 1674298030319,
+    "stop" : 1674298034998,
+    "duration" : 4679
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "664f561f8ed922e7",
+  "name" : "checkClickOnLogo",
+  "time" : {
+    "start" : 1674298045932,
+    "stop" : 1674298051620,
+    "duration" : 5688
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b1a5246fe30552a9",
+  "name" : "checkExitButton",
+  "time" : {
+    "start" : 1674298005331,
+    "stop" : 1674298012777,
+    "duration" : 7446
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "25b273023305ecd9",
+  "name" : "checkInputByRegistration",
+  "time" : {
+    "start" : 1674297918751,
+    "stop" : 1674297924733,
+    "duration" : 5982
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6fb1ed201aa4e3b",
+  "name" : "checkInputByLoginAccountButton",
+  "time" : {
+    "start" : 1674297981177,
+    "stop" : 1674297986180,
+    "duration" : 5003
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cddcbf2d4108bcfb",
+  "name" : "checkSuccessOpenPersonalAccount",
+  "time" : {
+    "start" : 1674297883483,
+    "stop" : 1674297887579,
+    "duration" : 4096
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8fdaaaad512bf938",
+  "name" : "checkClickOnLogo",
+  "time" : {
+    "start" : 1674298067111,
+    "stop" : 1674298072738,
+    "duration" : 5627
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f305cc0d3b9ceb34",
+  "name" : "checkClickOnConstructor",
+  "time" : {
+    "start" : 1674298056626,
+    "stop" : 1674298062106,
+    "duration" : 5480
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "59163bc0e713c1a1",
+  "name" : "checkErrorByWrongPassword",
+  "time" : {
+    "start" : 1674297871732,
+    "stop" : 1674297878424,
+    "duration" : 6692
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "da18320c4a1ca934",
+  "name" : "checkInputByRegistration",
+  "time" : {
+    "start" : 1674297970082,
+    "stop" : 1674297976167,
+    "duration" : 6085
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4715e0483cf032f6",
+  "name" : "checkInputByRecoverPassword",
+  "time" : {
+    "start" : 1674297906832,
+    "stop" : 1674297913745,
+    "duration" : 6913
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "20bb130457dfbcbb",
+  "name" : "checkExitButton",
+  "time" : {
+    "start" : 1674297991198,
+    "stop" : 1674298000309,
+    "duration" : 9111
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "90a95940e58bb34b",
+  "name" : "testApp",
+  "time" : {
+    "start" : 1674297883464,
+    "stop" : 1674297883468,
+    "duration" : 4
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7d8ae31d2803f65",
+  "name" : "checkErrorByWrongPassword",
+  "time" : {
+    "start" : 1674297842322,
+    "stop" : 1674297853830,
+    "duration" : 11508
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4bb1fc103253ec8c",
+  "name" : "checkSuccessfulOpenSectionBun",
+  "time" : {
+    "start" : 1674298017786,
+    "stop" : 1674298025310,
+    "duration" : 7524
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
