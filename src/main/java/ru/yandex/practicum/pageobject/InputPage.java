@@ -5,24 +5,23 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import java.util.Objects;
-
 public class InputPage {
 
+    public static final String STELLARBURGERS_LOGIN_URL_PATTERN = ".*stellarburgers.nomoreparties.site/login";
     // Поле почты
-    private final By emailField = By.xpath("//*[@id=\"root\"]/div/main/div/form/fieldset[1]/div/div/input");
+    private final By emailField = By.xpath("//label[text()='Email']/../input");
 
     // Поле пароль
-    private final By passwordField = By.xpath("//*[@id=\"root\"]/div/main/div/form/fieldset[2]/div/div/input");
+    private final By passwordField = By.xpath("//label[text()='Пароль']/../input");
 
-    // Кнопка "Регистрация"
-    private final By EnterButton = By.xpath("//*[@id=\"root\"]/div/main/div/form/button");
+    // Кнопка "Войти"
+    private final By EnterButton = By.xpath(".//button[text()='Войти']");
 
     // Ссылка "Зарегистрироваться" в центре страницы
-    private final By signUpLink = By.xpath("//*[@id=\"root\"]/div/main/div/div/p[1]/a");
+    private final By signUpLink = By.xpath("//a[@class=\"Auth_link__1fOlj\"][text()=\"Зарегистрироваться\"]");
 
     // Ссылка "Восстановить пароль" в центре страницы
-    private final By recoverPasswordLink = By.xpath("//*[@id=\"root\"]/div/main/div/div/p[2]/a");
+    private final By recoverPasswordLink = By.xpath("//a[@class=\"Auth_link__1fOlj\"][text()=\"Восстановить пароль\"]");
 
     // Драйвер браузера
     private final RemoteWebDriver driver;
@@ -60,7 +59,7 @@ public class InputPage {
     }
 
     public boolean isOnInputPage() {
-        wait.until(ExpectedConditions.urlMatches(".*stellarburgers.nomoreparties.site/login"));
+        wait.until(ExpectedConditions.urlMatches(STELLARBURGERS_LOGIN_URL_PATTERN));
         return true;
     }
 

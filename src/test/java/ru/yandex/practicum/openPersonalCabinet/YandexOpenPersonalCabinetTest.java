@@ -1,4 +1,4 @@
-package ru.yandex.practicum.openPersinalCabinet;
+package ru.yandex.practicum.openPersonalCabinet;
 
 import org.junit.BeforeClass;
 import org.openqa.selenium.chrome.ChromeDriver;

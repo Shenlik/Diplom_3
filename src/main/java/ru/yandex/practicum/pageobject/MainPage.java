@@ -22,20 +22,20 @@ public class MainPage {
     private final By toppingTitle = By.xpath("//*[@id=\"root\"]/div/main/section[1]/div[2]/h2[3]");
 
     // Кнопка "Личный кабинет" вверху страницы
-    private final By personalAccountButton = By.xpath("//*[@id=\"root\"]/div/header/nav/a");
+    private final By personalAccountButton = By.xpath(".//p[text()='Личный Кабинет']");
 
 
     // Кнопка "Войти в аккаунт" в центре страницы
-    private final By logInAccountButton = By.xpath("//*[@id=\"root\"]/div/main/section[2]/div/button");
+    private final By logInAccountButton = By.xpath(".//button[text()='Войти в аккаунт']");
 
     // Раздел Булки в Конструкторе "Соберите бургер"
-    private final By bunSection = By.xpath("//*[@id=\"root\"]/div/main/section[1]/div[1]/div[1]");
+    private final By bunSection = By.xpath(".//h2[text()='Булки']");
 
     // Раздел Соусы в Конструкторе "Соберите бургер"
-    private final By sauceSection = By.xpath("//*[@id=\"root\"]/div/main/section[1]/div[1]/div[2]");
+    private final By sauceSection = By.xpath(".//h2[text()='Соусы']");
 
     // Раздел Начинки в Конструкторе "Соберите бургер"
-    private final By toppingSection = By.xpath("//*[@id=\"root\"]/div/main/section[1]/div[1]/div[3]");
+    private final By toppingSection = By.xpath(".//h2[text()='Начинки']");
 
 
 

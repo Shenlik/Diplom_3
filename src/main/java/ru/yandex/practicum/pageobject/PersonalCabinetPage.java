@@ -9,14 +9,14 @@ import java.util.Objects;
 public class PersonalCabinetPage {
 
     // Кнопка "Конструктор"
-    private final By constructorButton = By.xpath("//*[@id=\"root\"]/div/header/nav/ul/li[1]/a/p");
+    private final By constructorButton = By.xpath(".//p[text()='Конструктор']");
 
     // Логотип "Stellar burgers"
-    private final By logoButton = By.xpath("//*[@id=\"root\"]/div/header/nav/div/a");
+    private final By logoButton = By.className("AppHeader_header__logo__2D0X2");
 
 
     // Кнопка "Выйти"
-    private final By exitButton = By.xpath("//*[@id=\"root\"]/div/main/div/nav/ul/li[3]/button");
+    private final By exitButton = By.xpath(".//button[text()='Выход']");
 
 
     // Драйвер браузера

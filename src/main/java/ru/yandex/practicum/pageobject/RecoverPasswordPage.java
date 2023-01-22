@@ -6,7 +6,7 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 public class RecoverPasswordPage {
 
     // Ссылка "Войти" в центре страницы
-    private final By loginLink = By.xpath("//*[@id=\"root\"]/div/main/div/div/p/a");
+    private final By loginLink = By.xpath(".//a[text()='Войти']");
 
     // Драйвер браузера
     private final RemoteWebDriver driver;

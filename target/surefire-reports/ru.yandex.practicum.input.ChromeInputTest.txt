@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: ru.yandex.practicum.input.ChromeInputTest
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 48.284 s - in ru.yandex.practicum.input.ChromeInputTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 43.502 s - in ru.yandex.practicum.input.ChromeInputTest

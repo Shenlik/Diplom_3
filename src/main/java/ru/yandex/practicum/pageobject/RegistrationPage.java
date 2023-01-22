@@ -8,22 +8,22 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class RegistrationPage {
 
     // Поле имя
-    private final By nameField = By.xpath("//*[@id=\"root\"]/div/main/div/form/fieldset[1]/div/div/input");
+    private final By nameField = By.xpath("//label[text()='Имя']/../input");
 
     // Поле почты
-    private final By emailField = By.xpath("//*[@id=\"root\"]/div/main/div/form/fieldset[2]/div/div/input");
+    private final By emailField = By.xpath("//label[text()='Email']/../input");
 
     // Поле пароль
-    private final By passwordField = By.xpath("//*[@id=\"root\"]/div/main/div/form/fieldset[3]/div/div/input");
+    private final By passwordField = By.xpath("//label[text()='Пароль']/../input");
 
     // Кнопка "Регистрация"
-    private final By signUpButton = By.xpath("//*[@id=\"root\"]/div/main/div/form/button");
+    private final By signUpButton = By.xpath(".//button[text()='Зарегистрироваться']");
 
     // Ссылка "Войти" в центре страницы
-    private final By loginLink = By.xpath("//*[@id=\"root\"]/div/main/div/div/p/a");
+    private final By loginLink = By.xpath(".//a[text()='Войти']");
 
     // Сообщение об ошибке "Некорректный пароль"
-    private final By incorrectPasswordTitle = By.xpath("//*[@id=\"root\"]/div/main/div/form/fieldset[3]/div/p");
+    private final By incorrectPasswordTitle = By.xpath(".//p[text()='Некорректный пароль']");
 
 
     // Драйвер браузера
