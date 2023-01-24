@@ -1,26 +1,30 @@
-package ru.yandex.practicum.logOutOfAccount;
+package ru.yandex.practicum.logout;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
-import jdk.jfr.Description;
+import io.qameta.allure.Description;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import ru.yandex.practicum.DriverConfig;
+import ru.yandex.practicum.api.ClientUser;
 import ru.yandex.practicum.pageobject.*;
-import ru.yandex.practicum.pageobject.dto.CreateUserRequest;
+import ru.yandex.practicum.dto.CreateUserRequest;
 
 import java.util.concurrent.TimeUnit;
 
 import static org.junit.Assert.assertTrue;
+import static ru.yandex.practicum.DriverConfig.CHROME;
 
-public abstract class LogOutOfAccountTest {
+public class LogOutOfAccountTest {
     private final RemoteWebDriver driver;
     private CreateUserRequest user;
     private String token;
 
-    public LogOutOfAccountTest(RemoteWebDriver driver) {
-        this.driver = driver;
+    public LogOutOfAccountTest() {
+        var browser = System.getProperties().getProperty("webbrowser", CHROME);
+        this.driver = DriverConfig.getDriver(browser);
     }
 
     @Before

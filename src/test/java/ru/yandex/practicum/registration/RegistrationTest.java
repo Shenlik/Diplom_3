@@ -1,7 +1,7 @@
 package ru.yandex.practicum.registration;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
-import jdk.jfr.Description;
+import io.qameta.allure.Description;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.junit.After;
 import org.junit.Assert;
@@ -9,17 +9,19 @@ import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import ru.yandex.practicum.pageobject.ClientUser;
+import ru.yandex.practicum.DriverConfig;
+import ru.yandex.practicum.api.ClientUser;
 import ru.yandex.practicum.pageobject.InputPage;
 import ru.yandex.practicum.pageobject.MainPage;
 import ru.yandex.practicum.pageobject.RegistrationPage;
-import ru.yandex.practicum.pageobject.dto.CreateUserRequest;
+import ru.yandex.practicum.dto.CreateUserRequest;
 
 import java.util.concurrent.TimeUnit;
 
 import static org.junit.Assert.assertTrue;
+import static ru.yandex.practicum.DriverConfig.CHROME;
 
-public abstract class RegistrationTest {
+public  class RegistrationTest {
 
     private final RemoteWebDriver driver;
     private CreateUserRequest user;
@@ -27,8 +29,9 @@ public abstract class RegistrationTest {
     private String email;
     private String password;
 
-    public RegistrationTest(RemoteWebDriver driver) {
-        this.driver = driver;
+    public RegistrationTest() {
+        var browser = System.getProperties().getProperty("webbrowser", CHROME);
+        this.driver = DriverConfig.getDriver(browser);
     }
 
     @Before

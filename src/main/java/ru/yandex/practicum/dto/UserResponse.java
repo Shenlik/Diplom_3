@@ -1,4 +1,4 @@
-package ru.yandex.practicum.pageobject.dto;
+package ru.yandex.practicum.dto;
 
 public class UserResponse {
 

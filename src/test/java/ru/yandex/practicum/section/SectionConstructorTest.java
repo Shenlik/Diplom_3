@@ -1,26 +1,27 @@
-package ru.yandex.practicum.sectionConstructor;
+package ru.yandex.practicum.section;
 
-import jdk.jfr.Description;
+import io.qameta.allure.Description;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import ru.yandex.practicum.pageobject.InputPage;
+import ru.yandex.practicum.DriverConfig;
 import ru.yandex.practicum.pageobject.MainPage;
-import ru.yandex.practicum.pageobject.RegistrationPage;
 
 import java.util.concurrent.TimeUnit;
 
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
+import static ru.yandex.practicum.DriverConfig.CHROME;
 
-public abstract class SectionConstructorTest {
+public  class SectionConstructorTest {
     private RemoteWebDriver driver;
 
-    public SectionConstructorTest(RemoteWebDriver driver) {
-        this.driver = driver;
+    public SectionConstructorTest() {
+        var browser = System.getProperties().getProperty("webbrowser", CHROME);
+        this.driver = DriverConfig.getDriver(browser);
     }
 
     @Before

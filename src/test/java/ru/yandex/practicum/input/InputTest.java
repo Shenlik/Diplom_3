@@ -1,27 +1,35 @@
 package ru.yandex.practicum.input;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
-import jdk.jfr.Description;
-import org.junit.After;
-import org.junit.Before;
-import org.junit.Test;
+import io.qameta.allure.Description;
+import org.junit.*;
+import org.junit.rules.ExternalResource;
+import org.junit.runner.RunWith;
+import org.junit.runners.Parameterized;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import ru.yandex.practicum.DriverConfig;
+import ru.yandex.practicum.api.ClientUser;
 import ru.yandex.practicum.pageobject.*;
-import ru.yandex.practicum.pageobject.dto.CreateUserRequest;
+import ru.yandex.practicum.dto.CreateUserRequest;
 
+import java.util.Arrays;
+import java.util.Collection;
 import java.util.concurrent.TimeUnit;
 
 import static org.junit.Assert.assertTrue;
+import static ru.yandex.practicum.DriverConfig.*;
 
-public abstract class InputTest {
+public class InputTest {
     private final RemoteWebDriver driver;
 
     private CreateUserRequest user;
     private String token;
 
-    public InputTest(RemoteWebDriver driver) {
-        this.driver = driver;
+    public InputTest() {
+        var browser = System.getProperties().getProperty("webbrowser", CHROME);
+        this.driver = DriverConfig.getDriver(browser);
     }
 
     @Before

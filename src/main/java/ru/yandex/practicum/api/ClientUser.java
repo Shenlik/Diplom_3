@@ -1,13 +1,12 @@
-package ru.yandex.practicum.pageobject;
+package ru.yandex.practicum.api;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import io.restassured.RestAssured;
-import io.restassured.response.Response;
 import org.apache.commons.lang3.RandomStringUtils;
-import ru.yandex.practicum.pageobject.dto.CreateUserRequest;
-import ru.yandex.practicum.pageobject.dto.UserResponse;
-import ru.yandex.practicum.pageobject.dto.LoginUserRequest;
+import ru.yandex.practicum.dto.CreateUserRequest;
+import ru.yandex.practicum.dto.UserResponse;
+import ru.yandex.practicum.dto.LoginUserRequest;
 
 import static com.fasterxml.jackson.databind.DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES;
 import static io.restassured.RestAssured.given;

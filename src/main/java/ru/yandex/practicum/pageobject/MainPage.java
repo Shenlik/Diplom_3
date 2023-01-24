@@ -10,16 +10,16 @@ import java.util.Objects;
 
 public class MainPage {
 
-    private final String url = "https://stellarburgers.nomoreparties.site/";
+    private static final String MAIN_URL = "https://stellarburgers.nomoreparties.site/";
 
     // Заголовок раздела "Булки"
-    private final By bunTitle = By.xpath("//*[@id=\"root\"]/div/main/section[1]/div[2]/h2[1]");
+    private final By bunTitle = By.xpath("//span[text()='Булки']");
 
     // Заголовок раздела "Соусы"
-    private final By sauceTitle = By.xpath("//*[@id=\"root\"]/div/main/section[1]/div[2]/h2[2]");
+    private final By sauceTitle = By.xpath("//span[text()='Соусы']");
 
     // Заголовок раздела "Начинки"
-    private final By toppingTitle = By.xpath("//*[@id=\"root\"]/div/main/section[1]/div[2]/h2[3]");
+    private final By toppingTitle = By.xpath("//span[text()='Начинки']");
 
     // Кнопка "Личный кабинет" вверху страницы
     private final By personalAccountButton = By.xpath(".//p[text()='Личный Кабинет']");
@@ -65,7 +65,7 @@ public class MainPage {
     }
 
     public MainPage open() {
-        driver.get(url);
+        driver.get(MAIN_URL);
         return this;
     }
 

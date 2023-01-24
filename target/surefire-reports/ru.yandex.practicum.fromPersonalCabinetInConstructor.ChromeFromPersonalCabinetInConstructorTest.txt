@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: ru.yandex.practicum.fromPersonalCabinetInConstructor.ChromeFromPersonalCabinetInConstructorTest
--------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 23.707 s - in ru.yandex.practicum.fromPersonalCabinetInConstructor.ChromeFromPersonalCabinetInConstructorTest

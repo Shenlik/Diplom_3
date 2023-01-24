@@ -1,30 +1,35 @@
-package ru.yandex.practicum.fromPersonalCabinetInConstructor;
+package ru.yandex.practicum.cabinet.transition;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
-import jdk.jfr.Description;
+
+import io.qameta.allure.Description;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import ru.yandex.practicum.DriverConfig;
+import ru.yandex.practicum.api.ClientUser;
 import ru.yandex.practicum.pageobject.*;
-import ru.yandex.practicum.pageobject.dto.CreateUserRequest;
+import ru.yandex.practicum.dto.CreateUserRequest;
 
 import java.util.concurrent.TimeUnit;
 
 import static org.junit.Assert.assertTrue;
+import static ru.yandex.practicum.DriverConfig.CHROME;
 
 //Переход из личного кабинета в конструктор
 //Проверь переход по клику на «Конструктор» и на логотип Stellar Burgers.
-public abstract class FromPersonalCabinetInConstructorTest {
+public class FromPersonalCabinetInConstructorTest {
 
     private final RemoteWebDriver driver;
 
     private CreateUserRequest user;
     private String token;
 
-    public FromPersonalCabinetInConstructorTest(RemoteWebDriver driver) {
-        this.driver = driver;
+    public FromPersonalCabinetInConstructorTest() {
+        var browser = System.getProperties().getProperty("webbrowser", CHROME);
+        this.driver = DriverConfig.getDriver(browser);
     }
 
     @Before

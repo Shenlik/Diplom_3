@@ -1,28 +1,31 @@
-package ru.yandex.practicum.openPersonalCabinet;
+package ru.yandex.practicum.cabinet.open;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
-import jdk.jfr.Description;
+import io.qameta.allure.Description;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import ru.yandex.practicum.pageobject.ClientUser;
+import ru.yandex.practicum.DriverConfig;
+import ru.yandex.practicum.api.ClientUser;
 import ru.yandex.practicum.pageobject.InputPage;
 import ru.yandex.practicum.pageobject.MainPage;
-import ru.yandex.practicum.pageobject.dto.CreateUserRequest;
+import ru.yandex.practicum.dto.CreateUserRequest;
 
 import java.util.concurrent.TimeUnit;
 
 import static org.junit.Assert.assertTrue;
+import static ru.yandex.practicum.DriverConfig.CHROME;
 
-public abstract class OpenPersonalCabinetTest {
+public class OpenPersonalCabinetTest {
     private RemoteWebDriver driver;
     private CreateUserRequest user;
     private String token;
 
-    public OpenPersonalCabinetTest(RemoteWebDriver driver) {
-        this.driver = driver;
+    public OpenPersonalCabinetTest() {
+        var browser = System.getProperties().getProperty("webbrowser", CHROME);
+        this.driver = DriverConfig.getDriver(browser);
     }
 
     @Before
@@ -37,7 +40,7 @@ public abstract class OpenPersonalCabinetTest {
 
     @Test
     @Description("Тест проверяет переход по клику в Личный кабинет")
-    public void checkSuccessOpenPersonalAccount()  {
+    public void checkSuccessOpenPersonalAccount() {
         MainPage mainPage = new MainPage(driver);
         InputPage inputPage = new InputPage(driver);
 

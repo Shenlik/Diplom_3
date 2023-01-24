@@ -1,14 +1,10 @@
-package ru.yandex.practicum.pageobject.dto;
+package ru.yandex.practicum.dto;
 
-public class LoginUserRequest {
+public class CreateUserRequest {
 
     private String email;
     private String password;
-
-    public LoginUserRequest(String email, String password) {
-        this.email = email;
-        this.password = password;
-    }
+    private String name;
 
     public String getEmail() {
         return email;
@@ -25,4 +21,13 @@ public class LoginUserRequest {
     public void setPassword(String password) {
         this.password = password;
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
 }
