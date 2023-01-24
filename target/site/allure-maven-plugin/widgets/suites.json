@@ -1,0 +1,70 @@
+{
+  "total" : 6,
+  "items" : [ {
+    "uid" : "6070b64800d4a821cfc1f2a95fe45988",
+    "name" : "ru.yandex.practicum.input.InputTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "1be4b6d0339547fd908e71a9c5667eb2",
+    "name" : "ru.yandex.practicum.registration.RegistrationTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "f0c36be26129fc375382d83ad53f901b",
+    "name" : "ru.yandex.practicum.cabinet.transition.FromPersonalCabinetInConstructorTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "3cd6a39f16a113a63b8dad30595a59ab",
+    "name" : "ru.yandex.practicum.section.SectionConstructorTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "31c270d19b7df4132052803b02fc99a8",
+    "name" : "ru.yandex.practicum.cabinet.open.OpenPersonalCabinetTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "07034385d6a0328039740f30f1ef45b5",
+    "name" : "ru.yandex.practicum.logout.LogOutOfAccountTest",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  } ]
+}

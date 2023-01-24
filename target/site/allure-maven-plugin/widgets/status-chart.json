@@ -1,0 +1,111 @@
+[ {
+  "uid" : "9d00e310d0ea2145",
+  "name" : "checkClickOnConstructor",
+  "time" : {
+    "start" : 1674572030574,
+    "stop" : 1674572035361,
+    "duration" : 4787
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "82595b74e379db7a",
+  "name" : "checkErrorByWrongPassword",
+  "time" : {
+    "start" : 1674571989368,
+    "stop" : 1674571993429,
+    "duration" : 4061
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a0519332dd0cff4e",
+  "name" : "checkSuccessfulRegistration",
+  "time" : {
+    "start" : 1674571969676,
+    "stop" : 1674571984192,
+    "duration" : 14516
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cce76fefa9adf380",
+  "name" : "checkInputByLoginAccountButton",
+  "time" : {
+    "start" : 1674572021443,
+    "stop" : 1674572025566,
+    "duration" : 4123
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fe85b0bd14a69dd2",
+  "name" : "checkExitButton",
+  "time" : {
+    "start" : 1674572048847,
+    "stop" : 1674572054206,
+    "duration" : 5359
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e32f6ab20e5684c3",
+  "name" : "checkInputByRecoverPassword",
+  "time" : {
+    "start" : 1674572007761,
+    "stop" : 1674572011759,
+    "duration" : 3998
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "58fc1195e7f57a22",
+  "name" : "checkInputByRegistration",
+  "time" : {
+    "start" : 1674572016766,
+    "stop" : 1674572021439,
+    "duration" : 4673
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c9a3e27237337b5a",
+  "name" : "checkSuccessfulOpenSectionBun",
+  "time" : {
+    "start" : 1674571993435,
+    "stop" : 1674571998585,
+    "duration" : 5150
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c53de5f611d51038",
+  "name" : "checkInputByPersonalAccountButton",
+  "time" : {
+    "start" : 1674572003601,
+    "stop" : 1674572007757,
+    "duration" : 4156
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8e874f499b095851",
+  "name" : "checkSuccessOpenPersonalAccount",
+  "time" : {
+    "start" : 1674572045279,
+    "stop" : 1674572048840,
+    "duration" : 3561
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1511ee93cc19b063",
+  "name" : "checkClickOnLogo",
+  "time" : {
+    "start" : 1674572035363,
+    "stop" : 1674572040272,
+    "duration" : 4909
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
